@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"github.com/coderjcronin/househunt-helper/internal/config"
+	"github.com/coderjcronin/househunt-helper/internal/database"
+)
+
+type apiValues struct {
+	db  *database.Queries
+	cfg *config.Config
+}
 
 func main() {
-	fmt.Println("This does nothing yet. I just wanted to avoid an error.")
+	// Nothin'
 }
